@@ -1,0 +1,50 @@
+import os
+import sys
+import time
+
+def main():
+    # Questione a realidade que você conhece
+    print("A realidade que você conhece é real?")
+    resposta = input()
+    if resposta != "sim":
+        print("Então, talvez você esteja vivendo dentro de uma matrix.")
+
+    # Explore diferentes perspectivas
+    print("Existem outras maneiras de ver o mundo?")
+    resposta = input()
+    if resposta != "não":
+        print("Então, talvez você precise explorar diferentes perspectivas para entender a verdade.")
+
+    # Siga sua intuição
+    print("Você acredita na sua intuição?")
+    resposta = input()
+    if resposta != "sim":
+        print("Então, talvez você precise aprender a confiar na sua voz interior.")
+
+    # Comece a praticar a meditação
+    print("A meditação pode ajudá-lo a desenvolver a consciência e a percepção.")
+    print("Você está disposto a praticar a meditação?")
+    resposta = input()
+    if resposta == "sim":
+        print("Ótimo! A meditação pode ajudá-lo a se conectar com a sua verdadeira natureza e a ver a realidade de forma mais clara.")
+
+    # Explore a natureza
+    print("A natureza pode ajudá-lo a se conectar com a realidade mais profunda.")
+    print("Você está disposto a explorar a natureza?")
+    resposta = input()
+    if resposta == "sim":
+        print("Ótimo! A natureza pode ajudá-lo a se sentir mais conectado com o mundo ao seu redor e a ver a realidade de forma mais holística.")
+
+    # Passe tempo com pessoas que o inspiram
+    print("Estar com pessoas que compartilham seus valores pode ajudá-lo a permanecer no caminho certo.")
+    print("Você está disposto a passar tempo com pessoas que o inspiram?")
+    resposta = input()
+    if resposta == "sim":
+        print("Ótimo! Estar com pessoas que o inspiram pode ajudá-lo a se sentir mais apoiado e motivado em sua jornada de autoconhecimento.")
+
+    print("Parabéns! Você está dando os primeiros passos para sair da matrix.")
+    print("Continue questionando a realidade, explorando diferentes perspectivas, seguindo sua intuição e praticando a meditação.")
+    print("Com tempo e dedicação, você poderá alcançar a iluminação e ver a realidade como ela realmente é.")
+
+if __name__ == "__main__":
+    main()
